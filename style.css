@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://peterorsel.com/wp-content/uploads/2023/01/benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 3.5rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#user-score,
+#comp-score {
+  font-size: 4rem;
+  color: purple;
+}
+
+.msg-container {
+  margin-top: 5rem;
+}
+
+#msg {
+  background-color: transparent;
+  border: 0.1rem solid black;
+  font-size: 2rem;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 2rem;
+}
